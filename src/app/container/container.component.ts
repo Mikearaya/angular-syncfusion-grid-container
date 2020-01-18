@@ -20,11 +20,10 @@ import {
   ActionEventArgs
 } from "@syncfusion/ej2-angular-grids";
 import { ClickEventArgs } from "@syncfusion/ej2-navigations";
-import {
-  CustomGridColumns,
-  QueryString,
-  FilterEventModel
-} from "./custom-grid-columns";
+import { FilterEventModel } from "../interfaces/filter-event.model";
+
+import { CustomGridColumns } from "../interfaces/custom-grid-columns";
+import { QueryString } from "../interfaces/query-string.model";
 import { Subject } from "rxjs";
 import { ActivatedRoute, Router } from "@angular/router";
 import { closest } from "@syncfusion/ej2-base";

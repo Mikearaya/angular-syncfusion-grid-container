@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { CustomGridColumns } from "../container/custom-grid-columns";
+import { CustomGridColumns } from "../interfaces/custom-grid-columns";
 
 @Component({
   selector: "app-view",
